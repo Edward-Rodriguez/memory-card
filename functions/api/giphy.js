@@ -1,6 +1,5 @@
 export async function onRequest(context) {
   const { env } = context;
-  console.log(env.API_KEY);
 
   const URL = `https://api.giphy.com/v1/gifs/trending?api_key=${env.API_KEY}&limit=12&offset=0&rating=g&bundle=messaging_non_clips`;
   try {
