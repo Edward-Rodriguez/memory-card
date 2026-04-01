@@ -1,15 +1,23 @@
 import '../styles/CardList.css';
+import Card from './Card';
 
-export default function CardList({ gifList }) {
+export default function CardList({ gifList, onClick }) {
   return (
     <>
       <ul>
         {gifList.map((gif) => (
           <li key={gif.id}>
-            <img src={gif.images.fixed_height.url} alt={gif.title} />
+            <Card
+              id={gif.id}
+              name={gif.title}
+              imageUrl={gif.images.fixed_height.url}
+              onClick={onClick}
+              alt={gif.alt_text || gif.title}
+            />
           </li>
         ))}
       </ul>
     </>
   );
 }
+Card;
