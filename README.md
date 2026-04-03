@@ -1,10 +1,14 @@
 # Memory Card Game
 
-Memory game that tests a user's memory using shuffled cards.
+GIF Memory game that tests a user's memory using shuffled cards and trending GIF's.
 
-**Live Demo:** [`Coming Soon...`]
+**Live Demo:** [`memory-card-5vf.pages.dev`](memory-card-5vf.pages.dev)
 
 ## Features
+
+- Dynamic Card Shuffling
+- Score Tracking System
+- Live Trending GIF Data Integration
 
 ## Tech
 
@@ -12,10 +16,16 @@ Memory game that tests a user's memory using shuffled cards.
 - **Build Tool:** Vite
 - **Styling:** CSS
 - **Version Control:** Git & GitHub
+- **Backend/ Serverless:** Cloudfare Workers
+- **Other Tools**: Wrangler
 
 ## Deployment
 
+- Cloudfare Pages
+
 ## Coming Soon / Future Additions
+
+- Search Box for themed GIF's
 
 ## Install
 
@@ -29,4 +39,4 @@ This project is licensed under the [MIT License](LICENSE.md)
 
 ## Contact
 
-Created by [@edward-rodriguez](https://github.com/Edward-Rodriguez)
+Created by [@edward-rodriguez](https://github.com/Edward-Rodriguez/memory-card.git)
