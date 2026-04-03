@@ -14,6 +14,7 @@ function App() {
     setGifs(trendingGifsArray);
   }, [trendingGifsArray]);
   const [clickedCards, setClickedCards] = useState(initialiazeCards());
+  console.log(gifs);
 
   // key = card/GIF id, value = true, false (if it has been clicked)
   function initialiazeCards() {
@@ -43,7 +44,7 @@ function App() {
     }
   }
 
-  // Fisher–Yates shuffle
+  // Fisher–Yates shuffle - shuffle in-place
   function shuffleCards() {
     const arrayCopy = [...gifs];
     let remaining = arrayCopy.length;
