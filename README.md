@@ -2,7 +2,7 @@
 
 GIF Memory game that tests a user's memory using shuffled cards and trending GIF's.
 
-**Live Demo:** [`memory-card-5vf.pages.dev`](memory-card-5vf.pages.dev)
+**Live Demo:** [`memory-card-5vf.pages.dev`](https://memory-card-5vf.pages.dev/)
 
 ## Features
 
