@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import useTrendingGifs from './services/giphyApi';
 import Footer from './components/Footer';
 import CardList from './components/CardList';
-import Scoreboard from './components/Scoreboard';
+import Header from './components/Header';
 
 function App() {
   const trendingGifsArray = useTrendingGifs();
@@ -14,7 +14,6 @@ function App() {
     setGifs(trendingGifsArray);
   }, [trendingGifsArray]);
   const [clickedCards, setClickedCards] = useState(initialiazeCards());
-  console.log(gifs);
 
   // key = card/GIF id, value = true, false (if it has been clicked)
   function initialiazeCards() {
@@ -60,7 +59,7 @@ function App() {
 
   return (
     <>
-      <Scoreboard currentScore={score} bestScore={bestScore} />
+      <Header currentScore={score} bestScore={bestScore} />
       <CardList gifList={gifs} onClick={handleCardClick} />
       <Footer />
     </>

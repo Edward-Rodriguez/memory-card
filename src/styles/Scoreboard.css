@@ -1,0 +1,12 @@
+.scoreboard {
+  margin: 11px 11px 0px auto;
+  font-family: 'Bitcount Single', system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #f1f1f1;
+}

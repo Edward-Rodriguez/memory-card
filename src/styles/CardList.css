@@ -5,12 +5,13 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 16px;
-  /* background-color: rgb(45, 45, 45); */
+  list-style-type: none;
+  margin-bottom: 32px;
 }
 
 .cardlist li {
   height: 250px;
-  flex: 1 0 250px;
+  flex: 1 0 300px;
   margin: 5px;
   background: #242424;
   color: #f1f1f1;
@@ -20,10 +21,4 @@
 .cardlist li:hover {
   cursor: pointer;
   color: #4da6ff;
-}
-
-@media (min-width: 810px) {
-  .cardlist {
-    max-width: 1200px;
-  }
 }
