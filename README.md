@@ -8,7 +8,7 @@ GIF Memory game that tests a user's memory using shuffled cards and trending GIF
 
 - Dynamic Card Shuffling
 - Score Tracking System
-- Live Trending GIF Data Integration
+- Live Trending GIF's from the GIPHY API
 
 ## Tech
 
@@ -16,22 +16,25 @@ GIF Memory game that tests a user's memory using shuffled cards and trending GIF
 - **Build Tool:** Vite
 - **Styling:** CSS
 - **Version Control:** Git & GitHub
-- **Backend/ Serverless:** Cloudfare Workers
-- **Other Tools**: Wrangler
+- **Backend/ Serverless:** Cloudflare Workers
+- **Other Tools**: Cloudflare Workers CLI (Wrangler)
 
 ## Deployment
 
-- Cloudfare Pages
+- Cloudflare Pages
 
 ## Coming Soon / Future Additions
 
 - Search Box for themed GIF's
+- Choose difficulty level (more or fewer GIFs)
 
 ## Install
 
-git clone <https://github.com/Edward-Rodriguez/memory-card>  
-cd memory-card  
+```bash
+git clone https://github.com/Edward-Rodriguez/memory-card
+cd memory-card
 npm install
+```
 
 ## License
 
@@ -39,4 +42,4 @@ This project is licensed under the [MIT License](LICENSE.md)
 
 ## Contact
 
-Created by [@edward-rodriguez](https://github.com/Edward-Rodriguez/memory-card.git)
+Created by [@edward-rodriguez](https://github.com/Edward-Rodriguez)
