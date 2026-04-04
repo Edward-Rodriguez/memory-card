@@ -10,3 +10,11 @@
   justify-content: flex-end;
   color: #f1f1f1;
 }
+
+@media (max-width: 800px) {
+  .scoreboard {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
