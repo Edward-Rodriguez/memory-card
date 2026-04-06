@@ -16,5 +16,7 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 0px;
   }
 }
